@@ -8,8 +8,8 @@ import os
 app = FastAPI()
 
 # Configuration
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-GITHUB_REPO = os.getenv("GITHUB_REPO")
+GITHUB_TOKEN = os.getenv("TOKEN")
+GITHUB_REPO = os.getenv("REPO")
 
 # Serve static files and templates
 app.mount("/static", StaticFiles(directory="static"), name="static")
