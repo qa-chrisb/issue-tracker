@@ -9,7 +9,5 @@ Lightweight web app that allows non-technical users to submit bug reports and fe
 - **Templates**: Jinja2
 - **HTTP Client**: httpx
 
-```
-
 ## User Flow
-![User Flow Diagram](https://github.com/qa-chrisb/issue-tracker/blob/c6ea64a4bbe831dcb6fb2251cda93638f8dfd6f8/user_flow.png)
+![User Flow Diagram](https://github.com/qa-chrisb/issue-tracker/raw/main/user_flow.png)
